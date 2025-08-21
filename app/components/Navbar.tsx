@@ -1,6 +1,6 @@
 import {Link} from "react-router";
 
-const Navbar: () => React.JSX.Element = ()=>{
+const Navbar = () => {
     return (
         <nav className="navbar">
             <Link to="/">
@@ -8,8 +8,8 @@ const Navbar: () => React.JSX.Element = ()=>{
             </Link>
             <Link to="/upload" className="primary-button w-fit">
                 Upload Resume
-                </Link>
+            </Link>
         </nav>
     )
 }
-export default Navbar;
+export default Navbar
